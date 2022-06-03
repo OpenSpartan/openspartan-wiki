@@ -30,7 +30,8 @@ module.exports = {
    */
   themeConfig: {
     repo: '',
-    editLinks: false,
+    editLinks: true,
+    editLinkText: "Contribute to this page"
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
