@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "The open-source Halo API wiki, documenting the undocumented Halo API.",
   "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "authors": {
     "name": "Den Delimarsky",
     "email": "hi@openspartan.com"
