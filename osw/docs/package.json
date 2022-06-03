@@ -1,0 +1,19 @@
+{
+  "name": "OpenSpartan Wiki",
+  "version": "0.0.1",
+  "description": "The open-source Halo API wiki, documenting the undocumented Halo API.",
+  "main": "index.js",
+  "authors": {
+    "name": "Den Delimarsky",
+    "email": "hi@openspartan.com"
+  },
+  "repository": "https://github.com/dend/openspartan-wiki/OpenSpartan Wiki",
+  "scripts": {
+    "dev": "vuepress dev src --temp .temp",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
