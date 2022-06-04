@@ -10,7 +10,7 @@
     "name": "Den Delimarsky",
     "email": "hi@openspartan.com"
   },
-  "repository": "https://github.com/dend/openspartan-wiki/OpenSpartan Wiki",
+  "repository": "https://github.com/dend/openspartan-wiki",
   "scripts": {
     "dev": "vuepress dev src --temp .temp",
     "build": "vuepress build src"

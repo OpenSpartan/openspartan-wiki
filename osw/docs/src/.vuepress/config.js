@@ -29,11 +29,11 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'https://github.com/dend/openspartan-wiki',
+    docsBranch: 'main',
     editLinks: true,
     editLinkText: "Contribute to this page",
-    docsDir: '',
-    editLinkText: '',
+    docsDir: 'osw/docs/src',
     lastUpdated: false,
     nav: [
       {
