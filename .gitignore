@@ -132,3 +132,4 @@ dist
 *.lock
 _gen/*
 resources/*
+public/*
