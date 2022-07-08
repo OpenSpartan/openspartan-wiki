@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 const fs = require("fs");
 const path = require("path");
+const sidebar = require('vuepress-auto-sidebar');
 
 module.exports = {
   /**
@@ -62,10 +63,7 @@ module.exports = {
         link: 'https://openspartan.com'
       }
     ],
-    sidebar: {
-      "/introduction/": getSideBar("introduction", "Getting Started"),
-      "/halo-infinite/": getSideBar("halo-infinite", "Halo Infinite API")
-    },
+    sidebar: sidebar.getSidebar()
   },
 
   /**
@@ -75,19 +73,4 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
   ]
-}
-
-function getSideBar(folder, title) {
-  const extension = [".md"];
-
-  const files = fs
-    .readdirSync(path.join(`${__dirname}/../${folder}`))
-    .filter(
-      (item) =>
-        item.toLowerCase() != "readme.md" &&
-        fs.statSync(path.join(`${__dirname}/../${folder}`, item)).isFile() &&
-        extension.includes(path.extname(item))
-    );
-
-  return [{ title: title, children: ["", ...files] }];
 }
