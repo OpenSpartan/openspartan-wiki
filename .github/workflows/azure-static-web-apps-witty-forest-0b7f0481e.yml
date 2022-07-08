@@ -25,6 +25,8 @@ jobs:
         run: npm install    
       - name: 'Install submodules'
         run: git submodule update --init --recursive --depth 1
+      - name: 'Install packages for theme'
+        run: cd themes/docsy && npm install
       - name: 'Setup Hugo on Runner'
         uses: peaceiris/actions-hugo@v2
         with:
