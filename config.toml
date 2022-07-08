@@ -30,6 +30,18 @@ hrefTargetBlank = true
 angledQuotes = false
 latexDashes = true
 
+
+[menu]
+[[menu.main]]
+  identifier = 'get-started'
+  name = 'Get Started'
+  url = '/get-started/'
+  weight = -110
+[[menu.main]]
+  name = 'Halo Infinite API'
+  url = '/halo-infinite/'
+  weight = -100
+
 [params]
 copyright = "Den Delimarsky"
 privacy_policy = "https://policies.google.com/privacy"
