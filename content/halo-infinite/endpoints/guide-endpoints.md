@@ -1,3 +1,9 @@
+---
+title: Guide Endpoints
+linkTitle: Guide Endpoints
+type: docs
+---
+
 # Guide Endpoints
 
 **Guide Endpoints** are specially crafted endpoints in the Halo Infinite API that are used to provide comprehensive information about specific entities that exist under an asset class. More concretely, you can use these endpoints to discover _publicly available_ assets under a specific asset class, such as `images` or `progression`.
