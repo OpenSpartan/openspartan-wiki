@@ -23,6 +23,10 @@ https://gamecms-hacs.svc.halowaypoint.com:443/hi/<ASSET_CLASS>/guide/xo?flight=<
 
 ## Example Response
 
-The response can be quite large. For example, the guide response for the `progression` asset class is 177.51KB and contains 63,307 lines of JSON. You can view an example of such a response in [`example-progression-guide.json`](./examples/guide-endpoints/example-progression-guide.json).
+The response can be quite large. For example, the guide response for the `progression` asset class is 177.51KB and contains 63,307 lines of JSON. You can view an example of such a response in [`example-progression-guide.json`](./examples/halo-infinite/guide-endpoints/example-progression-guide.json).
 
-<<< @/src/.vuepress/public/examples/guide-endpoints/example-progression-guide.json#documentation-snippet
+An excerpt of the response can be seen below:
+
+<<< @/src/.vuepress/public/examples/halo-infinite/guide-endpoints/example-progression-guide.json#documentation-snippet
+
+If you follow all the entities in the response for the `progression` asset class, you will notice that it lists all available armor cores, coatings, AI definitions, and more. Amongst others, this endpoint can also provide information on non-game assets, such as the season calendar, available at `/hi/progression/file/calendars/seasons/seasoncalendar.json`.

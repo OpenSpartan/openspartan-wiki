@@ -46,7 +46,8 @@ module.exports = {
       }
     ],
     sidebar: {
-      "/introduction/": getSideBar("introduction", "Getting Started")
+      "/introduction/": getSideBar("introduction", "Getting Started"),
+      "/halo-infinite-endpoints/": getSideBar("halo-infinite-endpoints", "Halo Infinite Endpoints")
     },
   },
 
