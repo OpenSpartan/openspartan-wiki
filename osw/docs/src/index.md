@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: ./media/homepage/logo.svg
 tagline: The open-source Halo API wiki, documenting the undocumented Halo API.
 actionText: Get Started →
 actionLink: /introduction/

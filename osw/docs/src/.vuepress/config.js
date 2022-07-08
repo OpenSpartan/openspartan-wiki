@@ -34,7 +34,7 @@ module.exports = {
     editLinks: true,
     editLinkText: "Contribute to this page",
     docsDir: 'osw/docs/src',
-    lastUpdated: false,
+    lastUpdated: true,
     nav: [
       {
         text: 'Get Started',
