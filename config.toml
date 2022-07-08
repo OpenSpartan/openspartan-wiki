@@ -10,6 +10,7 @@ section = ["HTML", "RSS"]
 contentDir = "content"
 
 enableRobotsTXT = true
+relativeURLs = true
 
 [taxonomies]
 tag = "tags"

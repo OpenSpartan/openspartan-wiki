@@ -27,7 +27,7 @@ https://gamecms-hacs.svc.halowaypoint.com:443/hi/<ASSET_CLASS>/guide/xo?flight=<
 
 ## Example Response
 
-The response can be quite large. For example, the guide response for the `progression` asset class is 177.51KB and contains 63,307 lines of JSON. You can view an example of such a response in [`example-progression-guide.json`](./examples/halo-infinite/endpoint-examples/guide-endpoint-response.json).
+The response can be quite large. For example, the guide response for the `progression` asset class is 177.51KB and contains 63,307 lines of JSON. You can view an example of such a response in [`example-progression-guide.json`](/examples/halo-infinite/endpoint-examples/guide-endpoint-response.json).
 
 An excerpt of the response can be seen below:
 
