@@ -10,7 +10,7 @@ type: docs
 
 ## Endpoint Structure
 
-```http
+```HTTP
 https://gamecms-hacs.svc.halowaypoint.com:443/hi/<ASSET_CLASS>/guide/xo?flight=<FLIGHT_ID>
 ```
 
@@ -29,10 +29,47 @@ https://gamecms-hacs.svc.halowaypoint.com:443/hi/<ASSET_CLASS>/guide/xo?flight=<
 
 ## Example Response
 
-The response can be quite large. For example, the guide response for the `progression` asset class is 177.51KB and contains 63,307 lines of JSON. You can view an example of such a response in [`example-progression-guide.json`](./examples/halo-infinite/guide-endpoints/example-progression-guide.json).
+The response can be quite large. For example, the guide response for the `progression` asset class is 177.51KB and contains 63,307 lines of JSON. You can view an example of such a response in [`example-progression-guide.json`](/examples/halo-infinite/endpoint-examples/guide-endpoint-response.json).
 
 An excerpt of the response can be seen below:
 
-<<< @/src/.vuepress/public/examples/halo-infinite/guide-endpoints/example-progression-guide.json#documentation-snippet
+```json
+{
+    "Accept": "application/x-bond-compact-binary",
+    "AcceptEncoding": "gzip",
+    "AcceptLanguage": "en-US",
+    "Files": [
+        {
+            "Uri": {
+                "AuthorityId": "gamecms",
+                "Path": "/hi/progression/file/calendars/seasons/seasoncalendar.json",
+                "QueryString": "",
+                "RetryPolicyId": "",
+                "TopicName": "",
+                "AcknowledgementTypeId": 0,
+                "AuthenticationLifetimeExtensionSupported": false,
+                "ClearanceAware": true
+            },
+            "ETag": "\"UqbUzm0v2guCX8BoASV67g/R5uI+q6ILGv2tDQ==\"",
+            "ContentLength": 445,
+            "Usage": 1
+        },
+        {
+            "Uri": {
+                "AuthorityId": "gamecms",
+                "Path": "/hi/progression/file/challengecontent/clientchallengedeckdefinitions/dailyplaynewdeck.json",
+                "QueryString": "",
+                "RetryPolicyId": "",
+                "TopicName": "",
+                "AcknowledgementTypeId": 0,
+                "AuthenticationLifetimeExtensionSupported": false,
+                "ClearanceAware": true
+            },
+            "ETag": "\"g0u5JGsEUCRdlGnMcYs/A9p/ZLCHHacmJfKRJQ==\"",
+            "ContentLength": 29,
+            "Usage": 1
+        },
+[...]
+```
 
 If you follow all the entities in the response for the `progression` asset class, you will notice that it lists all available armor cores, coatings, AI definitions, and more. Amongst others, this endpoint can also provide information on non-game assets, such as the season calendar, available at `/hi/progression/file/calendars/seasons/seasoncalendar.json`.
