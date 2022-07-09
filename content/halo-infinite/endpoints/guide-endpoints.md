@@ -4,13 +4,26 @@ linkTitle: Guide Endpoints
 type: docs
 ---
 
-**Guide Endpoints** are specially crafted endpoints in the Halo Infinite API that are used to provide comprehensive information about specific entities that exist under an asset class. More concretely, you can use these endpoints to discover _publicly available_ assets under a specific asset class, such as `images` or `progression`.
+**Guide Endpoints** are specially crafted endpoints in the Halo Infinite API that are used to provide comprehensive information about entities (read: files) that exist under an asset class. More concretely, you can use these endpoints to discover _publicly available_ files under a specific asset class, such as `images` or `progression`.
 
 ## Endpoint Structure
 
 ```HTTP
 https://gamecms-hacs.svc.halowaypoint.com:443/hi/<ASSET_CLASS>/guide/xo?flight=<FLIGHT_ID>
 ```
+
+The following `<ASSET_CLASS>` types are available:
+
+- `Images` - lists image files in use by the multiplayer service.
+- `Multiplayer` - lists multiplayer-related files.
+- `News` - lists files containing metadata related to in-game news.
+- `Progression` - lists files related to player progression through the multiplayer tiers.
+- `Specs` - lists files related to system specifications.
+- `TitleAuthorization` - lists files related to special authorizations for a given title (in this case, Halo Infinite).
+
+## Authentication
+
+The endpoint **requires authentication**, but you only need the Spartan token specified in the header.
 
 ## Endpoint Parameters
 
