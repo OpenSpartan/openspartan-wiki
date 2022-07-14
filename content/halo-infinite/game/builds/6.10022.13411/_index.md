@@ -6,7 +6,7 @@ type: docs
 
 ## Map Variants
 
-| PublicName            | AssetId                              | VersionId                            | Description                                                                                                                  |
+| Public Name           | Asset ID                             | Version ID                           | Description                                                                                                                  |
 | --------------------- | ------------------------------------ | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | Mangler 1             | 31cd4723-9b1b-4143-87e7-7e4afda3e3db | 33fe8db1-bca8-4c85-b3bd-86371f700d38 | Powerful semi-automatic Brute revolver that fires spikes at a medium range.                                                  |
 | Stalker Rifle 1       | 821c77d5-378a-4dc4-9b60-b384a4bd2b90 | 06d9d8c7-a963-4c8c-b2b2-67bca6f6d0c9 | Mid to long range plasma weapon with a high rate of fire and slower projectiles.                                             |
@@ -106,7 +106,7 @@ type: docs
 
 ## Game Mode Variants
 
-| PublicName                                     | AssetId                              | VersionId                            | Description                                                                                                                              |
+| Public Name                                    | Asset ID                             | Version ID                           | Description                                                                                                                              |
 | ---------------------------------------------- | ------------------------------------ | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Training Mode                                  | 1509eff5-99bc-46bc-bd18-aa3dbee4aeee | 8cb8d9da-c57b-479b-9b3d-fa3596c7969b | Select a loadout and train against bots.                                                                                                 |
 | BTB:Total Control                              | 34bac2c7-b6d7-4202-b634-1d770e5247a4 | e3577f2c-9e03-4429-8aff-b84f58bd5603 | Control all three zones simultaneously to score.                                                                                         |
