@@ -12,7 +12,7 @@ The following version numbers represent the known builds of the Halo Infinite ga
 
 | Build ID | Approximate Date of Capture |
 |:---------|:----------------------------|
-| 6.10022.13411 | July 12, 2022 |
+| [6.10022.13411](builds/6.10022.13411/_index.md) | July 12, 2022 |
 | 6.10022.12249 | June 15, 2022 |
 | 6.10022.10499 | June 11, 2022 |
 | 6.10021.18539 | May 23, 2022 |
