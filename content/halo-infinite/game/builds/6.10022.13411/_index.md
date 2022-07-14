@@ -367,7 +367,7 @@ type: docs
 
 ## Game Engine Variants
 
-| PublicName                       | AssetId                              | VersionId                            | Description                                                                |
+| Public Name                      | Asset ID                             | Version ID                           | Description                                                                |
 | -------------------------------- | ------------------------------------ | ------------------------------------ | -------------------------------------------------------------------------- |
 | Training Mode                    | 700e90e7-a918-451d-894b-aeca08110c91 | 9e0e7734-db62-4a7d-8279-95251c38b101 | Select a loadout and train against bots.                                   |
 | The Academy                      | bbe3163a-8eb1-4611-8b62-c132e91118fc | 32b9c589-11fa-4f23-8fda-d343db37a842 | Complete challenges to begin your Spartan career.                          |
